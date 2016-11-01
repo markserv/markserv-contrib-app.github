@@ -38,5 +38,11 @@
         }
       }
     ]
+  },
+  "dependencies": {
+    "markserv-contrib-mod.dir": "^1.0.0",
+    "markserv-contrib-mod.file": "^1.0.0",
+    "markserv-contrib-mod.http-404": "^1.0.0",
+    "markserv-contrib-mod.markdown": "^1.0.0"
   }
 }
