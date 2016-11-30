@@ -8,9 +8,9 @@ const Markconf = {
 
   modifiers: {
     '**/': [
-      // 'markserv-contrib-mod.dir',
-      {'markserv-contrib-mod.dir': 'partials/directory.html'},
-    // // //   // {'markserv-contrib-mod.foo': 'partials/directory.html'}
+    // //   // 'markserv-contrib-mod.dir',
+      {'markserv-contrib-mod.dir': 'partials/directory.html'}
+    // // // // //   // {'markserv-contrib-mod.foo': 'partials/directory.html'}
     ],
     // '**/': 'markserv-contrib-mod.dir',
     '**/*.md': 'markserv-contrib-mod.markdown',
