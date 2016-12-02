@@ -9,6 +9,15 @@
   },
   "author": "f1lt3r",
   "license": "LGPL-3.0",
+  "dependencies": {
+    "markserv-contrib-inc.html": "^1.0.1",
+    "markserv-contrib-inc.less": "^1.0.2",
+    "markserv-contrib-inc.markdown": "^1.0.1",
+    "markserv-contrib-mod.dir": "^1.0.5",
+    "markserv-contrib-mod.file": "^1.0.5",
+    "markserv-contrib-mod.http-404": "^1.0.3",
+    "markserv-contrib-mod.markdown": "^1.0.3"
+  },
   "devDependencies": {
     "xo": "^0.17.0"
   },
@@ -39,13 +48,4 @@
       }
     ]
   },
-  "dependencies": {
-    "markserv-contrib-inc.html": "^1.0.1",
-    "markserv-contrib-inc.less": "^1.0.2",
-    "markserv-contrib-inc.markdown": "^1.0.1",
-    "markserv-contrib-mod.dir": "^1.0.5",
-    "markserv-contrib-mod.file": "^1.0.5",
-    "markserv-contrib-mod.http-404": "^1.0.3",
-    "markserv-contrib-mod.markdown": "^1.0.3"
-  }
 }
