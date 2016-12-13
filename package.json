@@ -1,6 +1,6 @@
 {
   "name": "markserv-contrib-app.github",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Serve a content directory, Github style!",
   "repository": "git@github.com:f1lt3r/markserv-contrib-app.github",
   "main": "Markconf.js",
@@ -15,15 +15,16 @@
     "markserv-contrib-inc.markdown": "^1.0.1",
     "markserv-contrib-mod.dir": "^1.0.5",
     "markserv-contrib-mod.file": "^1.0.5",
+    "markserv-contrib-mod.html": "^1.0.0",
     "markserv-contrib-mod.http-404": "^1.0.3",
     "markserv-contrib-mod.markdown": "^1.0.3"
+
   },
   "devDependencies": {
     "xo": "^0.17.0"
   },
   "xo": {
     "esnext": true,
-    "space": 2,
     "globals": [
       "it",
       "describe",
@@ -47,5 +48,5 @@
         }
       }
     ]
-  },
+  }
 }
