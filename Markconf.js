@@ -9,14 +9,26 @@ const Markconf = {
 	modifiers: {
 		'**/': {
 			module: 'markserv-contrib-mod.dir',
-			templateUrl: 'partials/directory.html'
+			templateUrl: 'partials/index.html'
 		},
-		// '**/': 'markserv-contrib-mod.dir',
-		'**/*.md': 'markserv-contrib-mod.markdown',
-		'**/*.html': 'markserv-contrib-mod.html',
+		'**/*.md': {
+			module: 'markserv-contrib-mod.markdown',
+			templateUrl: 'partials/index.html'
+		},
+		// '**/*.+(js|json|yml)': {
+		// 	module: 'markserv-contrib-mod.code-highlight',
+		// 	templateUrl: 'partials/index.html'
+		// },
 		'**/*': 'markserv-contrib-mod.file',
 		404: 'markserv-contrib-mod.http-404'
+	},
+
+	// Merges w/ plugin payload data
+	overrides: {
+		MarkconfUrl: __filename
 	}
+
 };
 
 module.exports = Markconf;
+
