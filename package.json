@@ -1,11 +1,11 @@
 {
   "name": "markserv-contrib-app.github",
-  "version": "1.0.7",
+  "version": "1.0.12",
   "description": "Serve a content directory, Github style!",
   "repository": "git@github.com:f1lt3r/markserv-contrib-app.github",
   "main": "Markconf.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified... yet!\" && exit 1"
   },
   "author": "f1lt3r",
   "license": "LGPL-3.0",
@@ -18,7 +18,6 @@
     "markserv-contrib-mod.html": "^1.0.1",
     "markserv-contrib-mod.http-404": "^1.0.4",
     "markserv-contrib-mod.markdown": "^1.0.4"
-
   },
   "devDependencies": {
     "xo": "^0.17.1"
@@ -48,5 +47,6 @@
         }
       }
     ]
-  }
+  },
+  "verion": "1.0.8"
 }
