@@ -1,7 +1,7 @@
 {
   "name": "markserv-contrib-app.github",
   "version": "1.0.16",
-  "description": "Serve a content directory, Github style !!!",
+  "description": "Serve a content directory, Github style !!!!",
   "repository": "git@github.com:f1lt3r/markserv-contrib-app.github",
   "main": "Markconf.js",
   "scripts": {
