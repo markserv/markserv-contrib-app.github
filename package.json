@@ -1,11 +1,11 @@
 {
   "name": "markserv-contrib-app.github",
-  "version": "1.0.76",
+  "version": "1.0.87",
   "description": "Serve a content directory, Github Style.  Hello",
   "repository": "git@github.com:markserv/markserv-contrib-app.github",
   "main": "Markconf.js",
   "scripts": {
-    "test": "echo \"Error: no test specified... yet!\" && exit 1"
+    "test": ""
   },
   "author": "f1lt3r",
   "license": "LGPL-3.0",
