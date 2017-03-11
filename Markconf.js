@@ -15,6 +15,9 @@ const Markconf = {
 			module: 'markserv-contrib-mod.markdown',
 			templateUrl: 'partials/index.html'
 		},
+		'**/*.html': {
+			module: 'markserv-contrib-mod.html'
+		},
 		// '**/*.+(js|json|yml)': {
 		// 	module: 'markserv-contrib-mod.code-highlight',
 		// 	templateUrl: 'partials/index.html'
