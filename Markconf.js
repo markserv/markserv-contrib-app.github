@@ -2,7 +2,8 @@ const Markconf = {
 	includers: {
 		html: 'markserv-contrib-inc.html',
 		less: 'markserv-contrib-inc.less',
-		markdown: 'markserv-contrib-inc.markdown'
+		markdown: 'markserv-contrib-inc.markdown',
+		http: 'markserv-contrib-inc.http'
 		// svg: 'markserv-contrib-inc.svg',
 	},
 
